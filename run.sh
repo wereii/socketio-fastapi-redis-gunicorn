@@ -1,0 +1,1 @@
+exec python -m gunicorn -c gunicorn.conf.py --access-logfile - exampleapp.app:app
